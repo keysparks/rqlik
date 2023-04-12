@@ -83,7 +83,7 @@ h6 {
 .popup-content img{
   width: 130vh;
 }
-.popup h1 {
+.popup span {
   position: absolute;
   top: 2rem;
   right: 2rem;
@@ -92,11 +92,11 @@ h6 {
   user-select: none;
   color: #aaa;
 }
-.popup h1:hover{
+.popup span:hover{
   color: #111;
 }
 
-.popup h1:active {
+.popup span:active {
   transform: scale(.9);
 }
 
@@ -108,7 +108,7 @@ h6 {
 @media (max-width: 567px) {
   .popup-content {
     padding: 0rem;
-    /* width: 150%; */
+    width: 150%;
     height: 100%;
     margin: auto;
   }
@@ -116,65 +116,81 @@ h6 {
     width: 80%;
     height: auto;
   }
-  .popup h1 {
+  .popup span {
     top: 0;
     font-size: 120%;
   }
+  
 }
 @media (max-width: 768px) {
   .popup-content {
     padding: 0rem;
-    /* width: 60%; */
+    width: 60%;
     margin: auto;
   }
   .popup-content img {
     width: 80%;
     height: auto;
   }
-  .popup h1 {
-    top: 0;
+  .popup span {
+    top: 1rem;
     font-size: 120%;
   }
 }
 @media (max-width: 992px) {
   .popup-content {
     padding: 1.5rem;
-    /* width: 70%; */
+    width: 70%;
     margin: auto;
   }
   .popup-content img {
     width: 100%;
     height: auto;
   }
-  .popup h1 {
-    top: 0;
+  .popup span {
+    top: 1rem;
   }
 }
 @media (max-width: 1200px) {
   .popup-content {
     padding: 1.5rem;
-    /* width: 70%; */
+    width: 70%;
     margin: auto;
   }
   .popup-content img {
     width: 100%;
     height: auto;
   }
-  .popup h1 {
-    top: 0;
+  .popup span {
+    top: 1rem;
   }
-}@media (max-width: 1400px) {
+}
+@media (max-width: 1400px) {
   .popup-content {
-    padding: 1.5rem;
-    /* width: 90%; */
+    padding: 2.5rem;
+    width: 90%;
     margin: auto;
   }
   .popup-content img {
     width: 100%;
     height: auto;
   }
-  .popup h1 {
-    top: 0;
+  .popup span {
+    top: 1rem;
+  }
+}
+@media (max-width: 1699px) {
+  .popup-content {
+    padding: 2.5rem;
+    width: 90%;
+    margin: auto;
+  }
+  .popup-content img {
+    width: 100%;
+    height: auto;
+  }
+  .popup span {
+    top: 1.5rem;
   }
 }
 
