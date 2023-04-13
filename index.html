@@ -45,12 +45,6 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 
-
-
-
-
-
-
   <style type="text/css">
     .nav-tabs a,
     .nav-tabs a:hover,
@@ -66,7 +60,7 @@
       /* Stay in place */
       z-index: 1;
       /* Sit on top */
-      padding-top: 180px;
+      padding-top: 150px;
       /* Location of the box */
       left: 0;
       top: 0;
@@ -74,6 +68,7 @@
       /* Full width */
       height: 100%;
       /* Full height */
+      /* overflow: scroll; */
       overflow-x: hidden !important;
       overflow-y: hidden !important;
       /* Enable scroll if needed */
@@ -89,12 +84,11 @@
       margin: auto;
       padding-bottom: 20px;
       border: 1px solid #888;
-      width: 80%;
+      width: 70%;
     }
 
     .popup-header {
       position: sticky;
-      max-width: 100%;
       padding: 20px;
       margin-bottom: 10px;
       /* box-shadow: #eeecfc 0px 5px  5px ; */
@@ -124,13 +118,32 @@
       text-decoration: none;
       cursor: pointer;
     }
+    @media (min-width:1900px){
+      .pop-up-content {
+      height: 400px;
+    }
+    }
+    @media (min-width:992px){
+      .pop-up-content {
+      height: 300px;
+    }
+    }
+    @media (max-width:992px){
+      .pop-up-content {
+      height: 300px;
+    }
+    }
+    @media (max-width:768px){
+      .pop-up-content {
+      height: 250px;
+    }
+    }
+    @media (max-width:564px){
+      .pop-up-content {
+      height: 200px;
+    }
+    }
   </style>
-
-
-
-
-
-
 
 </head>
 
@@ -1534,11 +1547,11 @@
             <div class="footer-links">
               <h4>Useful Links</h4>
               <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About us</a></li>
-                <li><a href="#services">Program</a></li>
-                <li><a href="#portfolio">Gallery</a></li>
-                <li><a href="#footer">Contact</a></li>
+                <li><a class="nav-link scrollto"  href="#hero">Home</a></li>
+                <li><a class="nav-link scrollto"  href="#about">About us</a></li>
+                <li><a class="nav-link scrollto"  href="#services">Program</a></li>
+                <li><a class="nav-link scrollto"  href="#portfolio">Gallery</a></li>
+                <li><a class="nav-link scrollto"  href="#footer">Contact</a></li>
                 <li><a class="myBtn_multi button button1">Terms & Conditions</a></li>
 
                 <li><a class="myBtn_multi  button button1">Code-of-Conduct </a></li>
